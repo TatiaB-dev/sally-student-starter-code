@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 25px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header div, header h1 {
+    align-self: center;
+}
+
+div img {
+    width: 50vh;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 800;
+}
+
+p {
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.introduction {
+    border-bottom: lavender solid 5px;
+}
+
+.contact-info img {
+    height: 800px;
+    width: auto;
+    border-radius: 400px;
+    display: block;
+    margin: auto;
+}
+
+/* Desktop Styling */
+
+@media all and (min-width: 700px) {
+
+    div img {
+        width: 1000px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section {
+        align-self: center;
+        /* border: 1px solid black; */
+        width: 800px;
+    }
+
+}
+
+
